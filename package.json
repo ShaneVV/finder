@@ -1,0 +1,27 @@
+{
+  "name": "finder",
+  "version": "1.0.0",
+  "description": "A tool for find anything.",
+  "main": "main.js",
+  "bin": {
+    "ff": "main.js"
+  },
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "keywords": [
+    "find",
+    "file"
+  ],
+  "author": "shanevv",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "klaw": "^2.0.0"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4"
+  }
+}
